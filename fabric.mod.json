@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "spawnerbeacon",
+  "version": "${version}",
+  "name": "SpawnerBeacon",
+  "description": "Lichtstrahlen ueber Spawnern (auch durch Bloecke), Menue mit der Ue-Taste, Farbwaehler pro Spawner-Art.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.spawnerbeacon.SpawnerBeaconClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": ">=0.155.2"
+  },
+  "icon": "assets/spawnerbeacon/icon.png"
+}
